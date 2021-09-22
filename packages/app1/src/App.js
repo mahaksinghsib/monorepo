@@ -16,6 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Listing
+          new
         </a>
       </header>
     </div>
