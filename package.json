@@ -10,6 +10,6 @@
   "scripts": {
     "prepare": "husky install",
     "deploy-dev": "lerna run build --since dev",
-    "release": "lerna publish"
+    "release": "lerna publish --no-verify-access --yes"
   }
 }
