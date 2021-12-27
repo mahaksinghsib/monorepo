@@ -9,6 +9,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "deploy-dev": "lerna run build --since dev"
+    "deploy-dev": "lerna run build --since dev",
+    "release": "lerna publish"
   }
 }
